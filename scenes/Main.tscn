@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://scenes/Circles.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scripts/Player.gd" type="Script" id=3]
+[ext_resource path="res://scenes/ColorSwitcher.tscn" type="PackedScene" id=4]
+
+[node name="Main" type="Node2D"]
+
+transform/pos = Vector2( 510.317, 299.357 )
+
+[node name="Circles" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 1.68338, -107.357 )
+
+[node name="Circles1" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 1.68338, -811.357 )
+
+[node name="Circles2" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 1.68338, -811.357 )
+transform/scale = Vector2( 0.7, 0.7 )
+rot_speed = 120
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1.68338, 212.643 )
+script/script = ExtResource( 3 )
+jump_force = 500
+extra_gravity = 500
+
+[node name="ColorSwitcher" parent="." instance=ExtResource( 4 )]
+
+transform/pos = Vector2( 1.68338, -491.357 )
+
+[connection signal="body_enter" from="Player" to="Player" method="_on_Collision"]
+
+

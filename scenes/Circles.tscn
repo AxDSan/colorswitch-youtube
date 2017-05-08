@@ -1,0 +1,465 @@
+[gd_scene load_steps=43 format=1]
+
+[ext_resource path="res://scripts/CirclesRotation.gd" type="Script" id=1]
+[ext_resource path="res://scripts/tag.gd" type="Script" id=2]
+[ext_resource path="res://assets/Small Circle_01.png" type="Texture" id=3]
+[ext_resource path="res://assets/Small Circle_02.png" type="Texture" id=4]
+[ext_resource path="res://assets/Small Circle_03.png" type="Texture" id=5]
+[ext_resource path="res://assets/Small Circle_04.png" type="Texture" id=6]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 7.97121, -9.45179, 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 3.34154, -8.50347 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 7.97121, -5.39987, 5.07225, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.79284, 3.99712, -5.61493, 6.92829, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 5.07225, -4.7964, 2.77905, -3.93429, 0.0531693, -6.99478 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.0531693, -6.99478, 2.77905, -3.93429, 0.182973, -2.29628, -2.97559, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.97559, -4.7964, 0.182973, -2.29628, -1.93716, -0.399639, -5.5284, -2.25317 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.99951, -0.141007, -5.5284, -2.25317, -1.93716, -0.399639, -3.88422, 2.2729, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.29755, 2.48843, -3.88422, 2.2729, -4.79284, 3.99712 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 7.97121, -9.45179, 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 3.34154, -8.50347 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 7.97121, -5.39987, 5.07225, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.79284, 3.99712, -5.61493, 6.92829, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=14]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 5.07225, -4.7964, 2.77905, -3.93429, 0.0531693, -6.99478 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.0531693, -6.99478, 2.77905, -3.93429, 0.182973, -2.29628, -2.97559, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=16]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.97559, -4.7964, 0.182973, -2.29628, -1.93716, -0.399639, -5.5284, -2.25317 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.99951, -0.141007, -5.5284, -2.25317, -1.93716, -0.399639, -3.88422, 2.2729, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.29755, 2.48843, -3.88422, 2.2729, -4.79284, 3.99712 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 7.97121, -9.45179, 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 3.34154, -8.50347 )
+
+[sub_resource type="ConvexPolygonShape2D" id=20]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 7.97121, -5.39987, 5.07225, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.79284, 3.99712, -5.61493, 6.92829, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 5.07225, -4.7964, 2.77905, -3.93429, 0.0531693, -6.99478 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.0531693, -6.99478, 2.77905, -3.93429, 0.182973, -2.29628, -2.97559, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.97559, -4.7964, 0.182973, -2.29628, -1.93716, -0.399639, -5.5284, -2.25317 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.99951, -0.141007, -5.5284, -2.25317, -1.93716, -0.399639, -3.88422, 2.2729, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.29755, 2.48843, -3.88422, 2.2729, -4.79284, 3.99712 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 7.97121, -9.45179, 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 3.34154, -8.50347 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 7.97121, -5.39987, 5.07225, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.79284, 3.99712, -5.61493, 6.92829, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=32]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.34154, -8.50347, 5.07225, -4.7964, 2.77905, -3.93429, 0.0531693, -6.99478 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.0531693, -6.99478, 2.77905, -3.93429, 0.182973, -2.29628, -2.97559, -4.7964 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.97559, -4.7964, 0.182973, -2.29628, -1.93716, -0.399639, -5.5284, -2.25317 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.99951, -0.141007, -5.5284, -2.25317, -1.93716, -0.399639, -3.88422, 2.2729, -8.29755, 2.48843 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.29755, 2.48843, -3.88422, 2.2729, -4.79284, 3.99712 )
+
+[node name="Circles" type="Node2D"]
+
+script/script = ExtResource( 1 )
+rot_speed = 75
+
+[node name="Cyan" type="RigidBody2D" parent="."]
+
+editor/display_folded = true
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/0/trigger = true
+shapes/1/shape = SubResource( 2 )
+shapes/1/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/1/trigger = true
+shapes/2/shape = SubResource( 3 )
+shapes/2/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/2/trigger = true
+shapes/3/shape = SubResource( 4 )
+shapes/3/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/3/trigger = true
+shapes/4/shape = SubResource( 5 )
+shapes/4/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/4/trigger = true
+shapes/5/shape = SubResource( 6 )
+shapes/5/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/5/trigger = true
+shapes/6/shape = SubResource( 7 )
+shapes/6/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/6/trigger = true
+shapes/7/shape = SubResource( 8 )
+shapes/7/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/7/trigger = true
+shapes/8/shape = SubResource( 9 )
+shapes/8/transform = Matrix32( 8.28525, 0, 0, 8.31649, -81.9895, -82.9414 )
+shapes/8/trigger = true
+collision/layers = 1
+collision/mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = true
+can_sleep = true
+velocity/linear = Vector2( 0, 0 )
+velocity/angular = 0.0
+damp_override/linear = -1.0
+damp_override/angular = -1.0
+script/script = ExtResource( 2 )
+Tag = "Cyan"
+
+[node name="Sprite" type="Sprite" parent="Cyan"]
+
+transform/pos = Vector2( -82.2245, -82.2245 )
+texture = ExtResource( 3 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Cyan"]
+
+visibility/visible = false
+transform/pos = Vector2( -81.9895, -82.9414 )
+transform/scale = Vector2( 8.28525, 8.31649 )
+build_mode = 0
+polygon = Vector2Array( 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 5.07225, -4.7964, 2.77905, -3.93429, 0.182973, -2.29628, -1.93716, -0.399639, -3.88422, 2.2729, -4.79284, 3.99712, -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843, -6.99951, -0.141007, -5.5284, -2.25317, -2.97559, -4.7964, 0.0531693, -6.99478, 3.34154, -8.50347, 7.97121, -9.45179 )
+shape_range = Vector2( 0, 8 )
+trigger = true
+
+[node name="Yellow" type="RigidBody2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 165.158, 0 )
+input/pickable = false
+shapes/0/shape = SubResource( 10 )
+shapes/0/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/0/trigger = true
+shapes/1/shape = SubResource( 11 )
+shapes/1/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/1/trigger = true
+shapes/2/shape = SubResource( 12 )
+shapes/2/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/2/trigger = true
+shapes/3/shape = SubResource( 13 )
+shapes/3/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/3/trigger = true
+shapes/4/shape = SubResource( 14 )
+shapes/4/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/4/trigger = true
+shapes/5/shape = SubResource( 15 )
+shapes/5/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/5/trigger = true
+shapes/6/shape = SubResource( 16 )
+shapes/6/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/6/trigger = true
+shapes/7/shape = SubResource( 17 )
+shapes/7/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/7/trigger = true
+shapes/8/shape = SubResource( 18 )
+shapes/8/transform = Matrix32( -3.6216e-07, 8.28525, -8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/8/trigger = true
+collision/layers = 1
+collision/mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = true
+can_sleep = true
+velocity/linear = Vector2( 0, 0 )
+velocity/angular = 0.0
+damp_override/linear = -1.0
+damp_override/angular = -1.0
+script/script = ExtResource( 2 )
+Tag = "Yellow"
+
+[node name="Sprite" type="Sprite" parent="Yellow"]
+
+transform/pos = Vector2( -82.2245, -82.2245 )
+texture = ExtResource( 4 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Yellow"]
+
+visibility/visible = false
+transform/pos = Vector2( -81.9895, -82.9414 )
+transform/rot = -90.0
+transform/scale = Vector2( 8.28525, 8.31649 )
+build_mode = 0
+polygon = Vector2Array( 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 5.07225, -4.7964, 2.77905, -3.93429, 0.182973, -2.29628, -1.93716, -0.399639, -3.88422, 2.2729, -4.79284, 3.99712, -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843, -6.99951, -0.141007, -5.5284, -2.25317, -2.97559, -4.7964, 0.0531693, -6.99478, 3.34154, -8.50347, 7.97121, -9.45179 )
+shape_range = Vector2( 0, 8 )
+trigger = true
+
+[node name="Magenta" type="RigidBody2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 0.902496, 164.255 )
+input/pickable = false
+shapes/0/shape = SubResource( 19 )
+shapes/0/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/0/trigger = true
+shapes/1/shape = SubResource( 20 )
+shapes/1/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/1/trigger = true
+shapes/2/shape = SubResource( 21 )
+shapes/2/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/2/trigger = true
+shapes/3/shape = SubResource( 22 )
+shapes/3/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/3/trigger = true
+shapes/4/shape = SubResource( 23 )
+shapes/4/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/4/trigger = true
+shapes/5/shape = SubResource( 24 )
+shapes/5/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/5/trigger = true
+shapes/6/shape = SubResource( 25 )
+shapes/6/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/6/trigger = true
+shapes/7/shape = SubResource( 26 )
+shapes/7/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/7/trigger = true
+shapes/8/shape = SubResource( 27 )
+shapes/8/transform = Matrix32( -3.6216e-07, -8.28525, 8.31649, -3.63525e-07, -81.9895, -82.9414 )
+shapes/8/trigger = true
+collision/layers = 1
+collision/mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = true
+can_sleep = true
+velocity/linear = Vector2( 0, 0 )
+velocity/angular = 0.0
+damp_override/linear = -1.0
+damp_override/angular = -1.0
+script/script = ExtResource( 2 )
+Tag = "Magenta"
+
+[node name="Sprite" type="Sprite" parent="Magenta"]
+
+transform/pos = Vector2( -82.2245, -82.2245 )
+texture = ExtResource( 5 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Magenta"]
+
+visibility/visible = false
+transform/pos = Vector2( -81.9895, -82.9414 )
+transform/rot = 90.0
+transform/scale = Vector2( 8.28525, 8.31649 )
+build_mode = 0
+polygon = Vector2Array( 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 5.07225, -4.7964, 2.77905, -3.93429, 0.182973, -2.29628, -1.93716, -0.399639, -3.88422, 2.2729, -4.79284, 3.99712, -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843, -6.99951, -0.141007, -5.5284, -2.25317, -2.97559, -4.7964, 0.0531693, -6.99478, 3.34154, -8.50347, 7.97121, -9.45179 )
+shape_range = Vector2( 0, 8 )
+trigger = true
+
+[node name="Purple" type="RigidBody2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 166.06, 164.255 )
+input/pickable = false
+shapes/0/shape = SubResource( 28 )
+shapes/0/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/0/trigger = true
+shapes/1/shape = SubResource( 29 )
+shapes/1/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/1/trigger = true
+shapes/2/shape = SubResource( 30 )
+shapes/2/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/2/trigger = true
+shapes/3/shape = SubResource( 31 )
+shapes/3/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/3/trigger = true
+shapes/4/shape = SubResource( 32 )
+shapes/4/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/4/trigger = true
+shapes/5/shape = SubResource( 33 )
+shapes/5/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/5/trigger = true
+shapes/6/shape = SubResource( 34 )
+shapes/6/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/6/trigger = true
+shapes/7/shape = SubResource( 35 )
+shapes/7/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/7/trigger = true
+shapes/8/shape = SubResource( 36 )
+shapes/8/transform = Matrix32( -8.28525, -7.2432e-07, 7.27051e-07, -8.31649, -81.9895, -82.9414 )
+shapes/8/trigger = true
+collision/layers = 1
+collision/mask = 1
+mode = 1
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = false
+can_sleep = true
+velocity/linear = Vector2( 0, 0 )
+velocity/angular = 0.0
+damp_override/linear = -1.0
+damp_override/angular = -1.0
+script/script = ExtResource( 2 )
+Tag = "Purple"
+
+[node name="Sprite" type="Sprite" parent="Purple"]
+
+transform/pos = Vector2( -82.2245, -82.2245 )
+texture = ExtResource( 6 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Purple"]
+
+visibility/visible = false
+transform/pos = Vector2( -81.9895, -82.9414 )
+transform/rot = -180.0
+transform/scale = Vector2( 8.28525, 8.31649 )
+build_mode = 0
+polygon = Vector2Array( 9.65866, -9.75352, 9.65866, -5.57229, 7.97121, -5.39987, 5.07225, -4.7964, 2.77905, -3.93429, 0.182973, -2.29628, -1.93716, -0.399639, -3.88422, 2.2729, -4.79284, 3.99712, -5.61493, 6.92829, -5.788, 9.64393, -9.72539, 9.55772, -9.33598, 6.58344, -8.29755, 2.48843, -6.99951, -0.141007, -5.5284, -2.25317, -2.97559, -4.7964, 0.0531693, -6.99478, 3.34154, -8.50347, 7.97121, -9.45179 )
+shape_range = Vector2( 0, 8 )
+trigger = true
+
+
